@@ -2,7 +2,7 @@
   "name": "mk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mk26.github.io/mk26",
+  "homepage": "http://mk26.github.io/mk",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
