@@ -2,7 +2,7 @@
   "name": "mk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mk26.github.io/mk",
+  "homepage": "http://mk26.github.io/",
   "dependencies": {
     "jump.js": "^1.0.2",
     "node-sass-chokidar": "^1.1.0",
