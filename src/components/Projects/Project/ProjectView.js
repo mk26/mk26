@@ -1,14 +1,18 @@
 import React from 'react'
 
 import Zoom from 'react-reveal/Zoom'
+import Fade from 'react-reveal/Fade'
+
 import { PhotoSwipeGallery } from 'react-photoswipe'
 
 const Logo = ({ id, logo }) => (
-  <img
-    className={`logo ${id}`}
-    src={require(`../../../assets/images/projects/logos/${logo}.png`)}
-    alt={logo}
-  />
+  <Zoom>
+    <img
+      className={`logo ${id}`}
+      src={require(`../../../assets/images/projects/logos/${logo}.png`)}
+      alt={logo}
+    />
+  </Zoom>
 )
 
 const Tags = ({ time, teamSize, tags }) => (
@@ -58,7 +62,9 @@ const ProjectView = ({
     <div className={`project ${id}`}>
       <div className="title">{title}</div>
       <Logo id={id} logo={logo} />
-      <div className="description">{description}</div>
+      <Fade>
+        <div className="description">{description}</div>
+      </Fade>
       <SourceLink source={source} />
       <Tags time={time} teamSize={teamSize} tags={tags} />
       <PhotoSwipeGallery

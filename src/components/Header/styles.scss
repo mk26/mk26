@@ -6,17 +6,13 @@
   cursor: default;
   position: relative;
   .message {
-    font-size: 12vmax;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
     font-family: Yesteryear;
-    margin: 21vmax auto;
+    font-size: 24vh;
+    margin: 35vh auto;
     animation-fill-mode: both;
   }
   .down-arrow {
-    font-size: 12vmin;
+    font-size: 12vh;
     position: absolute;
     bottom: 12px;
     left: 0;

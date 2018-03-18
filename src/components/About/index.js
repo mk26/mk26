@@ -59,57 +59,59 @@ const Education = () => (
 
 const Links = () => (
   <div className="about-links">
-    <a
-      href="https://linkedin.com/in/karthik101"
-      className="link-btn linkedin"
-      title="LinkedIn"
-    >
-      <span className="fa fa-linkedin-square" />
-    </a>
-    <a
-      href="https://angel.co/karthik-muthusamy"
-      className="link-btn angel"
-      title="AngelList"
-    >
-      <span className="fa fa-angellist" />
-    </a>
-    <a
-      href="https://github.com/mk26"
-      title="Github"
-      className="link-btn github"
-    >
-      <span className="fa fa-github" />
-    </a>
-    <a
-      href="https://twitter.com/mk26s"
-      className="link-btn twitter"
-      title="Twitter - @mk26s"
-    >
-      <span className="fa fa-twitter" />
-    </a>
-    <a
-      href="https://www.instagram.com/_mkarthik_"
-      title="Instagram - _mkarthik_"
-      className="link-btn instagram"
-    >
-      <span className="fa fa-instagram" />
-    </a>
-    <a
-      href="resume.pdf"
-      data-toggle="tooltip"
-      data-placement="top"
-      title="Resume"
-      className="link-btn resume"
-    >
-      <span className="fa fa-file-text" />
-    </a>
-    <a
-      href="mailto:hello@mkarthik.me?subject=Hello"
-      title="Email - hello@mkarthik.me"
-      className="link-btn email"
-    >
-      <span className="fa fa-envelope" />
-    </a>
+    <Zoom delay={250}>
+      <a
+        href="https://linkedin.com/in/karthik101"
+        className="link-btn linkedin"
+        title="LinkedIn"
+      >
+        <span className="fa fa-linkedin-square" />
+      </a>
+      <a
+        href="https://angel.co/karthik-muthusamy"
+        className="link-btn angel"
+        title="AngelList"
+      >
+        <span className="fa fa-angellist" />
+      </a>
+      <a
+        href="https://github.com/mk26"
+        title="Github"
+        className="link-btn github"
+      >
+        <span className="fa fa-github" />
+      </a>
+      <a
+        href="https://twitter.com/mk26s"
+        className="link-btn twitter"
+        title="Twitter - @mk26s"
+      >
+        <span className="fa fa-twitter" />
+      </a>
+      <a
+        href="https://www.instagram.com/_mkarthik_"
+        title="Instagram - _mkarthik_"
+        className="link-btn instagram"
+      >
+        <span className="fa fa-instagram" />
+      </a>
+      <a
+        href="resume.pdf"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Resume"
+        className="link-btn resume"
+      >
+        <span className="fa fa-file-text" />
+      </a>
+      <a
+        href="mailto:hello@mkarthik.me?subject=Hello"
+        title="Email - hello@mkarthik.me"
+        className="link-btn email"
+      >
+        <span className="fa fa-envelope" />
+      </a>
+    </Zoom>
   </div>
 )
 
@@ -121,8 +123,7 @@ const About = () => (
         layers={[
           {
             image: require('../../assets/images/about-bg.jpg'),
-            amount: 0.1,
-            slowerScrollRate: true
+            amount: 0.2
           }
         ]}
         style={{
@@ -134,9 +135,13 @@ const About = () => (
     </Fade>
     <Zoom>
       <div className="about-details">
-        <div className="about-picture" />
+        <Zoom>
+          <div className="about-picture" />
+        </Zoom>
         <Interests />
+        <div className="separator">/ - /</div>
         <Experience />
+        <div className="separator">/ - /</div>
         <Education />
         <Links />
       </div>

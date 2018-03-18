@@ -11,21 +11,21 @@
   cursor: default;
   background-color: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(12px);
-  box-shadow: 0px 0px 48px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 48px 24px rgba(0, 0, 0, 0.3);
   .nav-header {
     font-size: 15px;
     letter-spacing: 3px;
     text-transform: uppercase;
   }
   .nav-items {
-    margin-top: 6px;
-    font-size: 16px;
+    margin-top: 3px;
+    font-size: 15px;
     .nav-item {
       display: inline-block;
       width: 99px;
       padding: 3px 6px;
-      border: 2px solid rgba(0, 0, 0, 0.8);
-      color: black;
+      border: 1.5px solid rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.8);
       text-decoration: none;
       cursor: default;
       transition: all 0.3s ease;
@@ -39,7 +39,7 @@
       }
       &:hover {
         color: rgba(255, 255, 255, 0.9);
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.9);
         transition: all 0.3s ease;
       }
       &:active {

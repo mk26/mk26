@@ -18,6 +18,19 @@ class App extends Component {
           <Projects />
           <About />
         </div>
+        <div className="footer">
+          © 2018, Karthik Muthusamy&nbsp;&middot;&nbsp;
+          <span className="footer-react">
+            Made with&nbsp;
+            <a
+              href="https://reactjs.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              React
+            </a>
+          </span>
+        </div>
       </Fragment>
     )
   }
