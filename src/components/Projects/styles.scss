@@ -1,0 +1,38 @@
+.projects {
+  .projects-header {
+    font-size: 6vmax;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 21vmin;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0px 0px 48px rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+  }
+  .project {
+    &.teams {
+      background-color: #332577;
+    }
+    &.tetris {
+      background-color: #29714b;
+    }
+    &.shipwars {
+      background-color: #873b33;
+    }
+    &.spark {
+      background-color: #243b5e;
+    }
+    &.lelivre {
+      background-color: #286458;
+    }
+    &.stockr {
+      background-color: #5e5e5e;
+    }
+    &.zones {
+      background-color: #356ca0;
+    }
+  }
+}

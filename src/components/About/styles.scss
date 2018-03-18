@@ -1,0 +1,121 @@
+.about {
+  .about-header {
+    font-size: 6vmax;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 13vmin;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0px 0px 48px rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+  }
+  .about-details {
+    padding: 24px;
+    font-size: 18px;
+    background-color: #323d52;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    .about-picture {
+      margin: 12px auto;
+      background-image: url(../../assets/images/mk.jpg);
+      background-size: cover;
+      width: 90px;
+      height: 90px;
+      box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.3);
+      border-radius: 50%;
+    }
+    .about-title {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: white;
+      margin-bottom: 9px;
+    }
+    .about-interests {
+      .about-interests-list {
+        line-height: 1.6em;
+      }
+      margin-bottom: 18px;
+    }
+    .about-education,
+    .about-experience {
+      margin-bottom: 18px;
+      .about-education-title,
+      .about-experience-title {
+        font-weight: bold;
+      }
+      .about-education-info,
+      .about-experience-info {
+        margin: 6px;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 1.6em;
+        .about-experience-desc {
+          color: rgba(255, 255, 255, 0.7);
+          font-style: oblique;
+          margin-bottom: 6px;
+        }
+        .tag {
+          font-size: 14px;
+          border-radius: 4px;
+          border: 1px solid rgba(255, 255, 255, 0.5);
+          padding: 1px 6px;
+          margin: 2px;
+          cursor: default;
+          user-select: none;
+          &.time {
+            color: rgba(255, 255, 255, 0.7);
+            background-color: rgba(255, 255, 255, 0.1);
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+    .about-links {
+      margin: 12px;
+      .link-btn {
+        display: inline-block;
+        width: 42px;
+        height: 48px;
+        margin: 3px;
+        padding: 3px 6px;
+        color: white;
+        background: none;
+        font-size: 36px;
+        border-radius: 6px;
+        cursor: default;
+        text-decoration: none;
+        transition: 0.3s all ease;
+        &.linkedin:hover {
+          background-color: #2286ba;
+          color: white;
+        }
+        &.angel:hover {
+          background-color: #ffffff;
+          color: black;
+        }
+        &.github:hover {
+          background-color: white;
+          color: #2f2f2f;
+        }
+        &.twitter:hover {
+          background-color: #59adeb;
+          color: white;
+        }
+        &.instagram:hover {
+          background-color: #487597;
+          color: #ffffff;
+        }
+        &.resume:hover {
+          background-color: #2b8d69;
+          color: white;
+        }
+        &.email:hover {
+          background-color: #0f93ff;
+          color: white;
+        }
+      }
+    }
+  }
+}

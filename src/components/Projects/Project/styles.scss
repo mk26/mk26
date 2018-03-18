@@ -1,0 +1,99 @@
+.project {
+  animation-fill-mode: none !important;
+  padding: 24px 48px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  .title {
+    font-size: 27px;
+    color: white;
+    margin: 6px;
+    text-transform: uppercase;
+  }
+  .logo {
+    border-radius: 24px;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.3));
+    width: 105px;
+    height: auto;
+    margin: 6px;
+    &.lelivre,
+    &.stockr {
+      border-radius: 0px;
+      filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.3));
+      width: 150px;
+    }
+  }
+  .description {
+    line-height: 1.6em;
+    margin: 24px 6px;
+    text-align: justify;
+    text-align-last: center;
+  }
+  .source {
+    margin: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  .tags {
+    padding: 6px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .tag {
+      font-size: 14px;
+      border-radius: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      padding: 3px 9px;
+      margin: 2px;
+      cursor: default;
+      user-select: none;
+      &.time,
+      &.team-size {
+        color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.1);
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        text-transform: uppercase;
+      }
+      &.tech {
+        color: rgba(255, 255, 255, 0.7);
+        // font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+    }
+  }
+  .gallery {
+    margin: 12px 3px;
+    .pswp-thumbnail {
+      display: inline-block;
+      margin: 3px;
+      & img {
+        height: 12vmin;
+        width: auto;
+        border-radius: 6px;
+        cursor: -webkit-zoom-in;
+        cursor: -moz-zoom-in;
+        transition: all 0.2s ease;
+        border: 3px solid transparent;
+        box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.1);
+        &:hover {
+          transform: scale(1.2);
+          box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+          border: 3px solid #0b65ff;
+          transition: all 0.2s ease;
+        }
+        &:active {
+          filter: brightness(70%);
+          transition: all 0.2s ease;
+        }
+      }
+    }
+    .pswp__caption,
+    .pswp__counter {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .pswp__caption__center {
+      text-align: center;
+      font-size: 15px;
+    }
+    .pswp__button--share {
+      display: none;
+    }
+  }
+}
