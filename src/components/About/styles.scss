@@ -50,18 +50,19 @@
       .about-experience-info {
         margin: 6px;
         color: rgba(255, 255, 255, 0.6);
-        line-height: 1.6em;
+        line-height: 1.3em;
         .about-experience-desc {
           color: rgba(255, 255, 255, 0.7);
           font-style: oblique;
           margin-bottom: 6px;
         }
         .tag {
+          display: inline-flex;
           font-size: 14px;
           border-radius: 4px;
+          margin: 2px 0px;
           border: 1px solid rgba(255, 255, 255, 0.5);
-          padding: 1px 6px;
-          margin: 2px;
+          padding: 0px 6px;
           cursor: default;
           user-select: none;
           &.time {
