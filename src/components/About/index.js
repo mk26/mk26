@@ -64,6 +64,8 @@ const Links = () => (
         href="https://linkedin.com/in/karthik101"
         className="link-btn linkedin"
         title="LinkedIn"
+        rel="noopener noreferrer"
+        target="_blank"
       >
         <span className="fa fa-linkedin-square" />
       </a>
@@ -71,6 +73,8 @@ const Links = () => (
         href="https://angel.co/karthik-muthusamy"
         className="link-btn angel"
         title="AngelList"
+        rel="noopener noreferrer"
+        target="_blank"
       >
         <span className="fa fa-angellist" />
       </a>
@@ -78,6 +82,8 @@ const Links = () => (
         href="https://github.com/mk26"
         title="Github"
         className="link-btn github"
+        rel="noopener noreferrer"
+        target="_blank"
       >
         <span className="fa fa-github" />
       </a>
@@ -85,6 +91,8 @@ const Links = () => (
         href="https://twitter.com/mk26s"
         className="link-btn twitter"
         title="Twitter - @mk26s"
+        rel="noopener noreferrer"
+        target="_blank"
       >
         <span className="fa fa-twitter" />
       </a>
@@ -92,15 +100,17 @@ const Links = () => (
         href="https://www.instagram.com/_mkarthik_"
         title="Instagram - _mkarthik_"
         className="link-btn instagram"
+        rel="noopener noreferrer"
+        target="_blank"
       >
         <span className="fa fa-instagram" />
       </a>
       <a
         href="resume.pdf"
-        data-toggle="tooltip"
-        data-placement="top"
         title="Resume"
         className="link-btn resume"
+        rel="noopener noreferrer"
+        target="_blank"
       >
         <span className="fa fa-file-text" />
       </a>
