@@ -6,6 +6,7 @@ import App from './App'
 import registerServiceWorker from './registerServiceWorker'
 
 import { ParallaxProvider } from 'react-scroll-parallax'
+import 'react-photoswipe/lib/photoswipe.css'
 
 ReactDOM.render(
   <ParallaxProvider>

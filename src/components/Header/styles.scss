@@ -14,11 +14,12 @@
   .down-arrow {
     font-size: 12vh;
     position: absolute;
-    bottom: 12px;
+    bottom: 1vh;
     left: 0;
     right: 0;
     margin: auto;
     text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
     cursor: default;
     &:hover {
       text-shadow: 0px 0px 50px rgba(100, 100, 100, 0.6);

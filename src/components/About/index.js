@@ -59,7 +59,7 @@ const Education = () => (
 
 const Links = () => (
   <div className="about-links">
-    <Zoom delay={250}>
+    <Zoom delay={150}>
       <a
         href="https://linkedin.com/in/karthik101"
         className="link-btn linkedin"

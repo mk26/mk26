@@ -6,13 +6,11 @@ import Fade from 'react-reveal/Fade'
 import { PhotoSwipeGallery } from 'react-photoswipe'
 
 const Logo = ({ id, logo }) => (
-  <Zoom>
-    <img
-      className={`logo ${id}`}
-      src={require(`../../../assets/images/projects/logos/${logo}.png`)}
-      alt={logo}
-    />
-  </Zoom>
+  <img
+    className={`logo ${id}`}
+    src={require(`../../../assets/images/projects/logos/${logo}.png`)}
+    alt={logo}
+  />
 )
 
 const Tags = ({ time, teamSize, tags }) => (

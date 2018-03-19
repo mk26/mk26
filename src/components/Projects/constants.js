@@ -131,16 +131,16 @@ const tetris = {
       title: 'In game'
     },
     {
-      ...getImage('tetris/tetris-gameover'),
-      w: 2089,
-      h: 1203,
-      title: 'Game over'
-    },
-    {
       ...getImage('tetris/tetris-paused'),
       w: 2089,
       h: 1202,
       title: 'Game paused'
+    },
+    {
+      ...getImage('tetris/tetris-gameover'),
+      w: 2089,
+      h: 1203,
+      title: 'Game over'
     }
   ]
 }

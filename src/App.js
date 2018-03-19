@@ -5,8 +5,7 @@ import Nav from './components/Nav'
 import Header from './components/Header'
 import Projects from './components/Projects'
 import About from './components/About'
-
-import 'react-photoswipe/lib/photoswipe.css'
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
@@ -18,19 +17,7 @@ class App extends Component {
           <Projects />
           <About />
         </div>
-        <div className="footer">
-          © 2018, Karthik Muthusamy&nbsp;&middot;&nbsp;
-          <span className="footer-react">
-            Made with&nbsp;
-            <a
-              href="https://reactjs.org"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              React
-            </a>
-          </span>
-        </div>
+        <Footer />
       </Fragment>
     )
   }
