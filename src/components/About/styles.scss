@@ -4,7 +4,7 @@
     letter-spacing: 12px;
     position: absolute;
     text-align: center;
-    top: 14vmin;
+    top: 15vmin;
     left: 0;
     right: 0;
     margin: auto;
@@ -24,9 +24,9 @@
       margin: 12px auto;
       background-image: url(../../assets/images/mk.jpg);
       background-size: cover;
-      width: 90px;
-      height: 90px;
-      box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
+      width: 85px;
+      height: 85px;
+      box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.3);
       border-radius: 50%;
     }
     .about-title {
@@ -62,11 +62,12 @@
         }
         .tag {
           display: inline-flex;
-          font-size: 14px;
-          border-radius: 4px;
+          font-size: 11px;
+          border-radius: 25px;
+          line-height: 1em;
           margin: 2px 0px;
           border: 1px solid rgba(255, 255, 255, 0.5);
-          padding: 0px 6px;
+          padding: 3px 6px;
           cursor: default;
           user-select: none;
           &.time {
