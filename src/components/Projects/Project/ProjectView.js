@@ -2,7 +2,6 @@ import React from 'react'
 
 import Zoom from 'react-reveal/Zoom'
 import Fade from 'react-reveal/Fade'
-
 import { PhotoSwipeGallery } from 'react-photoswipe'
 
 const ProjectView = ({
@@ -30,11 +29,13 @@ const ProjectView = ({
   const Tags = ({ time, teamSize, tags }) => (
     <div className="tags">
       <span className="tag time">
-        <span className="far fa-calendar" />&nbsp;{time}
+        <span className="far fa-calendar" />
+        &nbsp;{time}
       </span>
       {teamSize && (
         <span className="tag team-size">
-          <span className="far fa-user" />&nbsp;Team of {teamSize}
+          <span className="far fa-user" />
+          &nbsp;Team of {teamSize}
         </span>
       )}
       {tags &&
@@ -50,7 +51,8 @@ const ProjectView = ({
     <div className="source">
       {source && (
         <a href={source} className="button">
-          <span className="fab fa-github" />&nbsp;View on GitHub
+          <span className="fab fa-github" />
+          &nbsp;View on GitHub
         </a>
       )}
     </div>

@@ -7,8 +7,8 @@
   position: relative;
   .message {
     font-family: Yesteryear;
-    font-size: 24vh;
-    margin: 35vh auto;
+    font-size: 21vh;
+    margin: 36vh auto;
     animation-fill-mode: both;
   }
   .down-arrow {
@@ -18,15 +18,15 @@
     left: 0;
     right: 0;
     margin: auto;
-    text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.6);
+    text-shadow: 0px 0px 48px rgba(0, 0, 0, 0.6);
     transition: all 0.3s ease;
     cursor: default;
     &:hover {
-      text-shadow: 0px 0px 50px rgba(100, 100, 100, 0.6);
+      text-shadow: 0px 0px 48px rgba(255, 255, 255, 0.6);
       color: rgba(240, 240, 240, 1);
     }
     &:active {
-      text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+      text-shadow: 0px 0px 48px rgba(0, 0, 0, 0.9);
       color: rgba(240, 240, 240, 0.3);
     }
   }

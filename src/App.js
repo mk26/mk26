@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import './App.css'
+import './App.scss'
 
 import Nav from './components/Nav'
 import Header from './components/Header'

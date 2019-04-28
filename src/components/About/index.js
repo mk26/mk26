@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css'
+import './styles.scss'
 
 import { ParallaxBanner } from 'react-scroll-parallax'
 import Zoom from 'react-reveal/Zoom'
@@ -24,10 +24,12 @@ const About = () => {
         <div className="about-experience-desc">
           Focused on Front-end Web Development
         </div>
-        <span className="fa fa-briefcase" />&nbsp;Cisco Systems, Inc.&nbsp;
+        <span className="fa fa-briefcase" />
+        &nbsp;Cisco Systems, Inc.&nbsp;
         <span className="tag time">Since Jul 2015</span>
         <br />
-        <span className="fa fa-map-marker-alt" />&nbsp;San Jose, CA, USA
+        <span className="fa fa-map-marker-alt" />
+        &nbsp;San Jose, CA, USA
       </div>
     </div>
   )
@@ -39,21 +41,24 @@ const About = () => {
         MS - Computer Science and Engineering
       </div>
       <div className="about-education-info">
-        <span className="fa fa-graduation-cap" />&nbsp;Santa Clara
-        University&nbsp;
+        <span className="fa fa-graduation-cap" />
+        &nbsp;Santa Clara University&nbsp;
         <span className="tag time">2015</span>
         <br />
-        <span className="fa fa-map-marker-alt" />&nbsp;Santa Clara, CA, USA
+        <span className="fa fa-map-marker-alt" />
+        &nbsp;Santa Clara, CA, USA
       </div>
 
       <div className="about-education-title">
         BE - Computer Science and Engineering
       </div>
       <div className="about-education-info">
-        <span className="fa fa-graduation-cap" />&nbsp;Anna University&nbsp;
+        <span className="fa fa-graduation-cap" />
+        &nbsp;Anna University&nbsp;
         <span className="tag time">2013</span>
         <br />
-        <span className="fa fa-map-marker-alt" />&nbsp;Chennai, India
+        <span className="fa fa-map-marker-alt" />
+        &nbsp;Chennai, India
       </div>
     </div>
   )
@@ -69,15 +74,6 @@ const About = () => {
           target="_blank"
         >
           <span className="fab fa-linkedin" />
-        </a>
-        <a
-          href="https://angel.co/karthik-muthusamy"
-          className="link-btn angel"
-          title="AngelList"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <span className="fab fa-angellist" />
         </a>
         <a
           href="https://github.com/mk26"
@@ -107,7 +103,7 @@ const About = () => {
           <span className="fab fa-instagram" />
         </a>
         <a
-          href="resume.pdf"
+          href={`${process.env.PUBLIC_URL}/resume.pdf`}
           title="Resume"
           className="link-btn resume"
           rel="noopener noreferrer"
@@ -134,7 +130,7 @@ const About = () => {
           layers={[
             {
               image: require('../../assets/images/about-bg.jpg'),
-              amount: 0.2
+              amount: 0.1
             }
           ]}
           style={{

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import './styles.css'
+import './styles.scss'
+
 import ProjectView from './ProjectView'
 
 class Project extends Component {
