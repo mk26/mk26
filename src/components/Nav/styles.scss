@@ -1,51 +1,59 @@
 .nav {
   position: fixed;
-  margin: 0 auto;
   left: 0;
   right: 0;
   padding: 6px;
   z-index: 100;
   text-align: center;
-  box-shadow: none;
   user-select: none;
   cursor: default;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
   box-shadow: 0px 0px 48px 24px rgba(0, 0, 0, 0.3);
+  &.compressed {
+    background-color: rgba(255, 255, 120, 0.85);
+    .nav-header {
+      letter-spacing: 48px;
+      transform: translate3d(0, -21px, 0);
+      font-size: 0;
+      opacity: 0;
+    }
+  }
   .nav-header {
-    font-size: 15px;
-    letter-spacing: 3px;
+    font-size: 18px;
+    letter-spacing: 6px;
     text-transform: uppercase;
+    transition: all 0.3s ease;
   }
   .nav-items {
     margin-top: 3px;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
     .nav-item {
-      display: inline-block;
       width: 99px;
-      padding: 3px 6px;
+      padding: 3px;
       border: 1.5px solid rgba(0, 0, 0, 0.8);
       color: rgba(0, 0, 0, 0.8);
       text-decoration: none;
       cursor: default;
-      transition: all 0.3s ease;
-      &.left {
-        border-radius: 4px 0px 0px 4px;
+      transition: all 0.3s ease-out;
+      &:first-child {
+        border-radius: 3px 0px 0px 3px;
         border-right: none;
       }
-      &.right {
+      &:last-child {
         border-left: none;
-        border-radius: 0px 4px 4px 0px;
+        border-radius: 0px 3px 3px 0px;
+        cursor: alias;
       }
       &:hover {
         color: rgba(255, 255, 255, 0.9);
         background-color: rgba(0, 0, 0, 0.9);
-        transition: all 0.3s ease;
       }
       &:active {
-        color: #9b9b9b;
+        color: rgba(255, 255, 255, 0.3);
         background-color: #373737;
-        transition: all 0.3s ease;
       }
     }
   }
