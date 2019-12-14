@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.364a3f40.chunk.css",
-    "main.js": "/static/js/main.67673d0b.chunk.js",
-    "main.js.map": "/static/js/main.67673d0b.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "main.css": "/static/css/main.786edeeb.chunk.css",
+    "main.js": "/static/js/main.1e8dd53e.chunk.js",
+    "main.js.map": "/static/js/main.1e8dd53e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.92a1755b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.92a1755b.js.map",
     "static/css/2.d45e8b06.chunk.css": "/static/css/2.d45e8b06.chunk.css",
-    "static/js/2.509e289d.chunk.js": "/static/js/2.509e289d.chunk.js",
-    "static/js/2.509e289d.chunk.js.map": "/static/js/2.509e289d.chunk.js.map",
+    "static/js/2.315b39ab.chunk.js": "/static/js/2.315b39ab.chunk.js",
+    "static/js/2.315b39ab.chunk.js.map": "/static/js/2.315b39ab.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cc1fade76515f6fce52700c11a0ce5d8.js": "/precache-manifest.cc1fade76515f6fce52700c11a0ce5d8.js",
+    "precache-manifest.cbff4059217900018f0799109de4148f.js": "/precache-manifest.cbff4059217900018f0799109de4148f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d45e8b06.chunk.css.map": "/static/css/2.d45e8b06.chunk.css.map",
-    "static/css/main.364a3f40.chunk.css.map": "/static/css/main.364a3f40.chunk.css.map",
+    "static/css/main.786edeeb.chunk.css.map": "/static/css/main.786edeeb.chunk.css.map",
+    "static/js/2.315b39ab.chunk.js.LICENSE": "/static/js/2.315b39ab.chunk.js.LICENSE",
     "static/media/about-bg.jpg": "/static/media/about-bg.851eba39.jpg",
     "static/media/photoswipe.css": "/static/media/default-skin.b257fa9c.svg",
     "static/media/header-bg.jpg": "/static/media/header-bg.4244fba9.jpg",
@@ -70,5 +71,12 @@
     "static/media/zones-map_thumb.jpg": "/static/media/zones-map_thumb.95ec00d4.jpg",
     "static/media/zones-reminder.png": "/static/media/zones-reminder.69dfbda3.png",
     "static/media/zones.png": "/static/media/zones.38466dfa.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92a1755b.js",
+    "static/css/2.d45e8b06.chunk.css",
+    "static/js/2.315b39ab.chunk.js",
+    "static/css/main.786edeeb.chunk.css",
+    "static/js/main.1e8dd53e.chunk.js"
+  ]
 }
