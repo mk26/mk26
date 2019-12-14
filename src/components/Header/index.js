@@ -3,7 +3,6 @@ import './styles.scss'
 
 import Pulse from 'react-reveal/Pulse'
 import Fade from 'react-reveal/Fade'
-
 import { ParallaxBanner } from 'react-scroll-parallax'
 import jump from 'jump.js'
 
