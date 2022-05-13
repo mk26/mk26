@@ -50,7 +50,13 @@ const Project = ({
   const SourceLink = ({ source }) => (
     <div className="source">
       {source && (
-        <a href={source} className="button">
+        <a
+          href={source}
+          title="View on GitHub"
+          className="button"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <span className="fab fa-github" />
           &nbsp;View on GitHub
         </a>

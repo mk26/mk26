@@ -1,10 +1,11 @@
 .footer {
   text-align: center;
-  padding: 6px;
+  padding: 9px;
   color: rgb(122, 122, 122);
   font-size: 12px;
-  .footer-react,
-  .footer-react > a {
-    color: rgb(87, 87, 87);
+  .footer-react {
+    a {
+      color: rgb(87, 87, 87);
+    }
   }
 }

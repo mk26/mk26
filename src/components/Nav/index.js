@@ -38,6 +38,7 @@ const Nav = () => {
           </span>
           <a
             href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            title="View Resume"
             className="nav-item"
             rel="noopener noreferrer"
             target="_blank"
