@@ -64,3 +64,4 @@ build/
 # Other
 .vscode
 **/*.css
+.DS_Store
