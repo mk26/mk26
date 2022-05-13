@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import './App.scss'
 
 import Nav from './components/Nav'
@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 class App extends Component {
   render() {
     return (
-      <Fragment>
+      <>
         <Nav />
         <div className="content">
           <Header />
@@ -18,7 +18,7 @@ class App extends Component {
           <About />
         </div>
         <Footer />
-      </Fragment>
+      </>
     )
   }
 }
