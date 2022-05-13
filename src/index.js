@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client';
 
 import App from './App'
 
@@ -9,10 +9,12 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 import 'react-photoswipe/lib/photoswipe.css'
 import './index.scss'
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = createRoot(container)
+
+root.render(
   <ParallaxProvider>
     <App />
-  </ParallaxProvider>,
-  document.getElementById('root')
+  </ParallaxProvider>
 )
 registerServiceWorker()
