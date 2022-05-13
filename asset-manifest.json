@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0db16be1.css",
-    "main.js": "/static/js/main.69b63766.js",
+    "main.css": "/static/css/main.53b51e38.css",
+    "main.js": "/static/js/main.2fa36b92.js",
     "static/media/lelivre-home.png": "/static/media/lelivre-home.864356bfff6b7f06c5cf.png",
     "static/media/lelivre-books.png": "/static/media/lelivre-books.835a169fd0f7182d6821.png",
     "static/media/zones-map.png": "/static/media/zones-map.54f2b33f91e0cbcd98ef.png",
@@ -60,11 +60,11 @@
     "static/media/tetris.png": "/static/media/tetris.ff1af1b1b5028741a196.png",
     "static/media/default-skin.svg": "/static/media/default-skin.f64c3af3d0d25b9e4e00.svg",
     "index.html": "/index.html",
-    "main.0db16be1.css.map": "/static/css/main.0db16be1.css.map",
-    "main.69b63766.js.map": "/static/js/main.69b63766.js.map"
+    "main.53b51e38.css.map": "/static/css/main.53b51e38.css.map",
+    "main.2fa36b92.js.map": "/static/js/main.2fa36b92.js.map"
   },
   "entrypoints": [
-    "static/css/main.0db16be1.css",
-    "static/js/main.69b63766.js"
+    "static/css/main.53b51e38.css",
+    "static/js/main.2fa36b92.js"
   ]
 }
