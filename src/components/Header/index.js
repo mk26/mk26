@@ -14,8 +14,7 @@ const Header = () => (
         layers={[
           {
             image: require('../../assets/images/header-bg.jpg'),
-            amount: 0.2,
-            slowerScrollRate: false
+            speed: 10,
           }
         ]}
         style={{

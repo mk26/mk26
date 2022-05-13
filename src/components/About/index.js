@@ -22,7 +22,7 @@ const About = () => {
       <div className="about-experience-title">Software Engineer</div>
       <div className="about-experience-info">
         <div className="about-experience-desc">
-          Focused on Front-end Web Development
+          Full stack Web Development
         </div>
         <span className="fa fa-briefcase" />
         &nbsp;Cisco Systems, Inc.&nbsp;
@@ -130,7 +130,7 @@ const About = () => {
           layers={[
             {
               image: require('../../assets/images/about-bg.jpg'),
-              amount: 0.1
+              speed: 5
             }
           ]}
           style={{

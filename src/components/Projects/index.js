@@ -15,8 +15,7 @@ const Projects = () => (
         layers={[
           {
             image: require('../../assets/images/projects-bg.jpg'),
-            amount: 0.2,
-            slowerScrollRate: true
+            speed: 5
           }
         ]}
         style={{
